@@ -1,0 +1,49 @@
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\bin\Debug\Приемная_комиссия.exe.config
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\bin\Debug\Приемная_комиссия.exe
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\bin\Debug\Приемная_комиссия.pdb
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\bin\Debug\EntityFramework.dll
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\bin\Debug\EntityFramework.xml
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.csproj.AssemblyReference.cache
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.Properties.Resources.resources
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.Авторизация.resources
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.Регистрация.resources
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.csproj.GenerateResource.cache
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.csproj.CoreCompileInputs.cache
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.csproj.CopyComplete
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.exe
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.pdb
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.Администратору.resources
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.Профиль.resources
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.Специальности.resources
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.Заявление.resources
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.Списки.resources
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.Пользователи.resources
+C:\Users\second\Desktop\Программирование\ОАиП\Приемная_комиссия\obj\Debug\Приемная_комиссия.Редактирование.resources
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.csproj.AssemblyReference.cache
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.csproj.SuggestedBindingRedirects.cache
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.Properties.Resources.resources
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.Авторизация.resources
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.Администратору.resources
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.Заявление.resources
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.Пользователи.resources
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.Профиль.resources
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.Регистрация.resources
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.Редактирование.resources
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.Специальности.resources
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.Списки.resources
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.csproj.GenerateResource.cache
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.csproj.CoreCompileInputs.cache
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.exe
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.pdb
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\bin\Debug\Приемная_комиссия.exe.config
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\bin\Debug\Приемная_комиссия.exe
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\bin\Debug\Приемная_комиссия.pdb
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\bin\Debug\EntityFramework.dll
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\bin\Debug\EntityFramework.xml
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Виктория Григорьева\Desktop\Study\Основы алгоритмизации и программирования\Приемная_комиссия\obj\Debug\Приемная_комиссия.csproj.CopyComplete

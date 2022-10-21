@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EntityModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="EntityModelStoreContainer">
+    <EntitySet Name="UserSet" EntityType="EntityModel.Store.UserSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EntrantSet" EntityType="EntityModel.Store.EntrantSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ListSet" EntityType="EntityModel.Store.ListSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FacultySet" EntityType="EntityModel.Store.FacultySet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SpecialtySet" EntityType="EntityModel.Store.SpecialtySet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="UserEntrant" Association="EntityModel.Store.UserEntrant">
+      <End Role="User" EntitySet="UserSet" />
+      <End Role="Entrant" EntitySet="EntrantSet" />
+    </AssociationSet>
+    <AssociationSet Name="EntrantList" Association="EntityModel.Store.EntrantList">
+      <End Role="Entrant" EntitySet="EntrantSet" />
+      <End Role="List" EntitySet="ListSet" />
+    </AssociationSet>
+    <AssociationSet Name="ListSpecialty" Association="EntityModel.Store.ListSpecialty">
+      <End Role="List" EntitySet="ListSet" />
+      <End Role="Specialty" EntitySet="SpecialtySet" />
+    </AssociationSet>
+    <AssociationSet Name="FacultySpecialty" Association="EntityModel.Store.FacultySpecialty">
+      <End Role="Faculty" EntitySet="FacultySet" />
+      <End Role="Specialty" EntitySet="SpecialtySet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="UserSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Login" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Role" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EntrantSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Point" Type="int" Nullable="false" />
+    <Property Name="Photo" Type="varbinary(max)" Nullable="false" />
+    <Property Name="PersonalyData" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ListSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Point" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Prioritet" Type="int" Nullable="false" />
+    <Property Name="Entrant_Id" Type="int" Nullable="true" />
+    <Property Name="Specialty_Id" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="FacultySet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SpecialtySet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Code" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Place" Type="int" Nullable="false" />
+    <Property Name="Faculty_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="UserEntrant">
+    <End Role="User" Type="EntityModel.Store.UserSet" Multiplicity="1" />
+    <End Role="Entrant" Type="EntityModel.Store.EntrantSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Entrant">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EntrantList">
+    <End Role="Entrant" Type="EntityModel.Store.EntrantSet" Multiplicity="0..1" />
+    <End Role="List" Type="EntityModel.Store.ListSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entrant">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="List">
+        <PropertyRef Name="Entrant_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ListSpecialty">
+    <End Role="List" Type="EntityModel.Store.ListSet" Multiplicity="*" />
+    <End Role="Specialty" Type="EntityModel.Store.SpecialtySet" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Specialty">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="List">
+        <PropertyRef Name="Specialty_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FacultySpecialty">
+    <End Role="Faculty" Type="EntityModel.Store.FacultySet" Multiplicity="1" />
+    <End Role="Specialty" Type="EntityModel.Store.SpecialtySet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Faculty">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Specialty">
+        <PropertyRef Name="Faculty_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
